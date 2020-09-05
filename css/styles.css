@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+p {
+  line-height: 2;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+  font-weight: bold;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 6px;
+  color: #d8d8d8;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.top-container {
+  margin: 0;
+}
+.top-left {
+  margin: 0;
+  width: 30%;
+  float: left;
+}
+.top-center {
+  margin-top: 100px;
+  display: inline-block;
+  width: 40%;
+}
+.top-right {
+  margin: 0;
+  width: 30%;
+  width: 30%;
+  float: right;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
+.profile_pic {
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+.skills_pic_1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills_pic_2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  line-height: 2;
+}
+
+.contact-message {
+  width: 35%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 20px 0px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #ffffff 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.footer-link {
+}
+
+.footer-text {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
